@@ -2,7 +2,7 @@
 # Docker file to build  Apache Tomcat image
 ################
 
-FROM tomcat:jre8
+FROM tomcat:8.5-jdk8-openjdk
 MAINTAINER ravi jaiswal <https://github.com/ravijaiswal07>
 ENV TERM=xterm
 
